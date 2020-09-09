@@ -3,13 +3,9 @@ package com.itacademy.animals.description;
 import java.util.Random;
 
 public class Cat extends Animal {
-    private String color;
-    private String nickname;
 
     public Cat(String color, String nickname) {
         super();
-        this.color = color;
-        this.nickname = nickname;
     }
 
     public int firstAttack() {
