@@ -46,11 +46,11 @@ public class Arena {
             }
         }
         if(catzilla.getHealth() > catkong.getHealth()){
-            System.out.println("Дорогой Killer!");
+            System.out.println("Killer одерживает победу единогласным решением судей!");
             catzilla.levelUp();
 
         } else {
-            System.out.println("Дорогой Ripper!");
+            System.out.println("Ripper одерживает победу единогласным решением судей!");
             catkong.levelUp();
         }
     }
